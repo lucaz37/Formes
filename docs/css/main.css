@@ -15,6 +15,7 @@ body {
   border: 2px inset #4bc0f0;
   background-image: url(../art/mainDiv.png);
   padding: 15px;
+  margin: 5px;
   flex: 1;
 }
 #navDiv {
@@ -22,7 +23,9 @@ body {
   background-color: #568eff;
   opacity: 80%;
   width: 200px;
+  height: 100%;
   padding: 10px;
+  margin: 5px;
   flex-shrink: 0;
 }
 #holder {
