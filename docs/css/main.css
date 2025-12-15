@@ -24,7 +24,7 @@ body {
 #holder {
   font-family: Calibri;
   display: flex;
-  width: 960px;
+  width: 98%;
   margin: auto;
   gap: 16px;
 }
