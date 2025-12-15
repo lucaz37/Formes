@@ -1,0 +1,7 @@
+[center][b]Formes[/b] - [b][i]the life simulation engine.[/i][/b][/center]
+[html]<hr>[html]
+Formes is an Artificial Life engine based on JavaScript made for simulating many types of creatures.
+To start off, it is recommended to read:
+[html]
+
+[html]
