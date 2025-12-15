@@ -20,7 +20,7 @@ body {
 }
 #navDiv {
   border: 24px solid transparent;
-  border-image-source: url(navDiv9S.png);
+  border-image-source: url(../art/navDiv9S.png);
   border-image-slice: 24;
   border-image-repeat: stretch;
   opacity: 0.8;
