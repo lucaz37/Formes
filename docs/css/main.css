@@ -12,13 +12,17 @@ body {
   background-attachment: fixed;
 }
 #mainDiv {
-  border: 4px inset #5cc0ff;
+  border: 2px inset #4bc0f0;
   background-image: url(../art/mainDiv.png);
   padding: 15px;
   flex: 1;
 }
 #navDiv {
+  border: 1px solid #000010;
+  background-color: #568eff;
+  opacity: 80%;
   width: 200px;
+  padding: 10px;
   flex-shrink: 0;
 }
 #holder {
