@@ -21,7 +21,7 @@ body {
 #navDiv {
   border: 1px solid #000010;
   background-color: #568eff;
-  opacity: 80%;
+  opacity: 0.8;
   width: 200px;
   height: 100%;
   padding: 10px;
