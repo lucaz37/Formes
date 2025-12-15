@@ -23,6 +23,7 @@ body {
   border-image-source: url(../art/navDiv9S.png);
   border-image-slice: 24;
   border-image-repeat: stretch;
+  border-image-slice: 24 fill;
   opacity: 0.8;
   width: 200px;
   height: 100%;
