@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
   <br>
-  <title></title>
+  <title>Formes</title>
 
   
   
@@ -21,11 +21,20 @@
 
 </div>
 <div id="mainDiv">
-<!-- this is main text -->
+<!-- this is main text parser -->
 
-<div align="center">
-<h1><b>Formes</b> - <b><i>the life simulation engine.</i></b>
-</div>
+<script>
+const file = URLSearchParams(window.location.search).get('page') || 'index'
+let page = await (await fetch('./docs/documentation/' + file + '.txt')).text()
+
+const rtf = [["html",""],["h1","<h1>"],["/h1","</h1>"],["img",'<img src="'],["/img",'"></img>'],["left",'<div align="left">'],["center",'<div align="center">'],["right",'<div align="right">'],["/div","</div>"],["lt","&lt;"],["gt","&gt;"],["amp","&amp;"],["quot","&quot;"],["apos","&apos;"],["lb","["],["rb","]"],["cmt","<!--"],["/cmt","-->"],["b","<b>"],["/b","</b>"],["i","<i>"],["/i","</i>"],["u","<u>"],["/u","</u>"]]
+
+for (const [code, html] of rtf) {
+const regex = new RegExp(`\\[${code}\\]`, 'g')
+page = page.replace(regex, html)
+}
+document.getElementById("mainDiv").innerHTML = page
+</script>
 
 </div>
 </div>
