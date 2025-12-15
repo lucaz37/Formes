@@ -20,7 +20,7 @@ body {
 }
 #navDiv {
   border: 1px solid #000010;
-  background-color: #568eff;
+  border-image: url(../art/frame.png) 24 stretch;
   opacity: 0.8;
   width: 200px;
   height: 100%;
