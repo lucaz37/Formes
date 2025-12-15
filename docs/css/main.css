@@ -19,8 +19,10 @@ body {
   flex: 1;
 }
 #navDiv {
-  border: 1px solid #000010;
-  border-image: url(./art/navDiv9S.png) 24 stretch;
+  border: 24px solid transparent;
+  border-image-source: url(navDiv9S.png);
+  border-image-slice: 24;
+  border-image-repeat: stretch;
   opacity: 0.8;
   width: 200px;
   height: 100%;
