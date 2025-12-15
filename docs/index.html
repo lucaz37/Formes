@@ -23,7 +23,7 @@
 <div id="mainDiv">
 <!-- this is main text parser -->
 
-<script>
+<script type="module">
 const file = URLSearchParams(window.location.search).get('page') || 'index'
 let page = await (await fetch('./documentation/' + file + '.txt')).text()
 
