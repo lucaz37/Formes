@@ -40,6 +40,6 @@ body {
   gap: 16px;
 }
 hr {
-  border: 1px inset #aaa;
+  border: 2px inset #aaa;
   height: 3px
 }
