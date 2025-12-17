@@ -39,3 +39,8 @@ body {
   margin: auto;
   gap: 16px;
 }
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+}
