@@ -1,0 +1,3 @@
+[h1]Formes - Organisms[/h1]
+<br>
+Organisms are the main point of Formes, being dynamically simulated in an environment. Formes organisms have a [b][i]genetic encoding[/i][/b], which defines how the organism is read by the Formes engine, and a [b][i]genotype[/i][/b], which defines how the organism is built.
