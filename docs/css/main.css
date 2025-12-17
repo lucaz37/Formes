@@ -35,12 +35,11 @@ body {
 #holder {
   font-family: Calibri;
   display: flex;
-  width: 98%;
+  width: calc(100% - 10px);
   margin: auto;
   gap: 16px;
 }
 hr {
-  border: none;
-  border-top: 2px solid #ccc;
-  margin: 1em 0;
+  border: 1px inset #aaa;
+  height: 3px
 }
