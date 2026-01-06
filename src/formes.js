@@ -12,9 +12,11 @@ document.body.appendChild(renderer.domElement)
 
 // formes setup
 let organisms = []
-const dStick = {genome = "",vert = [],nn = []}
-const dCell = {genome = "",cells = []}
-const dForam = {genome = "",chambers = []}
-const dRigid = {genome = "",obj = [],motors = []}
-const dModular = {genome = "",chambers = []}
-const dModule = {shape = 0,offset = {v=0,sx=1,sy=1,sz=1},logic = []}
+const dStick = {genome: "",vert: [],nn: []}
+const dCell = {genome: "",cells: []}
+const dForam = {genome: "",chambers: []}
+const dRigid = {genome: "",obj: [],motors: [], nn: []}
+const dModular = {genome: "",chambers: []}
+const dModule = {shape: 0,offset: {v=0,sx=1,sy=1,sz=1},logic: []}
+
+function 
